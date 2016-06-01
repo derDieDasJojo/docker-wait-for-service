@@ -1,7 +1,7 @@
 #!/bin/bash
 
-WAIT_HOST=mongo-cluster
-WAIT_PORT=27017
+#WAIT_HOST=mongo-cluster #defined by docker-compose-file
+#WAIT_PORT=27017	 #defined by docker-compose-file
 
 #wait for service to come up
 echo "waiting for $WAIT_HOST:$WAIT_PORT to come up .. "
