@@ -10,4 +10,5 @@ echo "db reached !"
 
 #start node
 echo "starting server"
+
 npm start
